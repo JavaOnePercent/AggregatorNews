@@ -1,0 +1,4 @@
+export const AGG_GET_NEWS = 'AGG_GET_NEWS';
+export const AGG_CLEAR_NEWS = 'AGG_CLEAR_NEWS';
+export const AGG_SEARCH_NEWS = 'AGG_SEARCH_NEWS';
+export const AGG_DOWNLOAD_NEWS = 'AGG_DOWNLOAD_NEWS';

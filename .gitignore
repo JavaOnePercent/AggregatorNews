@@ -1,0 +1,55 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+/aggregator-backend/target/
+/aggregator-backend/config/
+!/aggregator-backend/.mvn/wrapper/maven-wrapper.jar
+/aggregator-backend/.mvn/
+/aggregator-backend/mvnw
+/aggregator-backend/mvnw.bat
+/aggregator-backend/mvnw.cmd
+/aggregator-backend/log/
+/aggregator-backend/pom.xml.tag
+/aggregator-backend/pom.xml.releaseBackup
+/aggregator-backend/pom.xml.next
+/aggregator-backend/release.properties
+/aggregator-backend/src/main/webapp/static/index-bundle.js
+/aggregator-backend/src/main/webapp/static/index-bundle.js.map
+
+### STS ###
+/aggregator-backend/.apt_generated
+/aggregator-backend/.classpath
+/aggregator-backend/.factorypath
+/aggregator-backend/.project
+/aggregator-backend/.settings
+/aggregator-backend/.springBeans
+
+### IntelliJ IDEA ###
+/aggregator-backend/.idea
+/aggregator-frontend/.idea
+
+*.iws
+*.iml
+*.ipr
+
+### node.js ###
+
+/aggregator-frontend/dist
+/aggregator-frontend/node_modules
+
+
+

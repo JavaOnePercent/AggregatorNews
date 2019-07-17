@@ -1,0 +1,236 @@
+body
+  margin 0
+
+@font-face
+  font-family 'Permanent Marker', cursive;
+  src url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap')
+  font-weight bold
+
+.logo
+  font-family 'Permanent Marker', cursive;
+  color #fff
+  font-size 30pt
+  margin-top 5px
+  margin-left 15px
+
+.header
+  display flex
+  justify-content space-between
+  align-content center
+  background #673AB7
+  height 70px
+
+.header-container
+  position fixed
+  width 100%
+  z-index 10
+
+input[type=text]
+  border none
+  background none
+  outline none
+  float left
+  padding 0
+  font-size 17px
+  transition 0.4s
+  height 20px
+  width 1000px
+
+label
+  color #fff
+  font-family Arial, Helvetica, sans-serif
+  font-size 16px
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #673AB7;
+}
+
+.search-button
+  float right
+  color #673AB7
+  width 35px
+  height 35px
+  background none
+  display flex
+  border-radius 50%
+  justify-content center
+  align-items center
+  margin-top -7.5px
+  cursor pointer
+
+.settings-button
+  float right
+  color #fff
+  width 50px
+  height 50px
+  display flex
+  justify-content center
+  align-items center
+  margin 10px
+  cursor pointer
+
+.search-box
+  background #fff
+  height 20px
+  border-radius 40px
+  margin 15px
+  padding 10px
+  display flex
+  align-content center
+  justify-items center
+
+
+.settings-tab
+  height 50px
+  background #7E57C2
+  display flex
+  justify-content center
+  align-items center
+
+.checkbox-header,.radio-header
+  margin-left 10px
+  margin-right 10px
+
+.checkbox
+  position relative
+  margin-left 10px
+  margin-right 10px
+
+
+.checkbox-input
+  -webkit-appearance none
+  appearance none
+  position absolute
+
+
+.checkbox-label
+  padding-left 25px
+  font-size 1rem
+  cursor pointer
+
+.checkbox-label:before
+  content ""
+  display block
+  width 16px
+  height 16px
+  border 1px solid #fff
+  background-color #7E57C2
+  border-radius 3px
+  position absolute
+  z-index 1
+  transition background .1s linear, border .1s linear
+
+.checkbox-label:after
+  content ""
+  display block
+  width 12px
+  height 12px
+  background url("static/check.svg") no-repeat
+  background-size 12px 12px
+  opacity 0
+  position absolute
+  top 3px
+  left 3px
+  z-index 2
+  transition opacity .1s linear
+
+.checkbox-input:checked + .checkbox-label:after
+  opacity 1
+
+.radio
+  position relative
+  margin-left 10px
+  margin-right 10px
+
+
+.radio-input
+  -webkit-appearance none
+  appearance none
+  position absolute
+
+
+.radio-label
+  padding-left 25px
+  font-size 16px
+  cursor pointer
+
+
+.radio-label:before
+  content ""
+  display block
+  width 16px
+  height 16px
+  border 1px solid #fff
+  background-color #7E57C2
+  border-radius 50%
+  position absolute
+  top 0
+  left 0
+  z-index 1
+  transition border .1s linear
+
+
+.radio-label:after
+  content ""
+  display block
+  width 12px
+  height 12px
+  background-color #fff
+  border-radius 50%
+  opacity 0
+  position absolute
+  top 3px
+  left 3px
+  z-index 2
+  transition opacity .1s linear
+
+
+.radio-input:checked + .radio-label:after
+  opacity 1
+
+
+.news
+  margin-top 120px
+  position absolute
+  margin-right 20%
+  margin-left 20%
+  font-family Arial, Helvetica, sans-serif
+  z-index 0
+
+.post-title
+  margin-left 5%
+  font-size 25px
+
+.post-footer
+  margin-bottom 10px
+  margin-top 10px
+  margin-left 5%
+  display flex
+  flex-direction row
+  font-size 16px
+
+.post-description
+  margin-bottom 10px
+  margin-top 10px
+  margin-left 5%
+  font-size 18px
+
+.news img
+  display block
+  margin 30px auto
+
+.download-button
+  float right
+  color #fff
+  width 16px
+  height 16px
+  display flex
+  justify-content center
+  align-items center
+  margin-left 10px
+  margin-right 10px
+  cursor pointer
