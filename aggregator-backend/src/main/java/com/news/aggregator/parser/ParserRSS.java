@@ -20,7 +20,7 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.Attribute;
 import javax.xml.stream.events.Characters;
 import javax.xml.stream.events.XMLEvent;
-import static com.news.aggregator.parser.ParserRSSConstant.*;
+import static com.news.aggregator.parser.ParserRSSConstants.*;
 
 @Component
 public class ParserRSS

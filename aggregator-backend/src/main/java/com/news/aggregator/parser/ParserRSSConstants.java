@@ -1,6 +1,6 @@
 package com.news.aggregator.parser;
 
-public class ParserRSSConstant
+public class ParserRSSConstants
 {
     public static final String ITEM = "item";
     public static final String TITLE = "title";
